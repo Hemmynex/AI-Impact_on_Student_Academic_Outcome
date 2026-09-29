@@ -228,7 +228,7 @@ This analysis revealed a strong and consistent relationship. Among High Dependen
 
 **Key Findings**
 
-<img width="382" height="165" alt="Screenshot 2026-09-29 214952" src="https://github.com/user-attachments/assets/b4ee31ce-35a5-44f2-b11b-4967669c5242" />
+<img width="383" height="159" alt="Screenshot 2026-09-29 220443" src="https://github.com/user-attachments/assets/5de7b664-78d5-4267-9f34-7d661bedd50d" />
 
 
 **Comparison with Initial Findings**
@@ -241,37 +241,30 @@ Dashboard Overview
 
 All charts and visualizations were consolidated into a single interactive dashboard in Microsoft Excel titled "AI Impact on Student Academic Outcomes." The dashboard includes three KPI cards (Year of Study with highest AI dependency, Major Category benefiting most from AI, and Most Impactful Weekly GenAI Usage level) connected to Year of Study and Burnout Risk Level slicers. The following charts are featured:
 
-<img width="382" height="129" alt="Screenshot 2026-09-29 215013" src="https://github.com/user-attachments/assets/55a510b5-da7a-4d71-b22f-7da014fce277" />
+<img width="384" height="129" alt="Screenshot 2026-09-29 220552" src="https://github.com/user-attachments/assets/e6a6e1b7-dcf8-499c-ba93-3a6401ca9cb5" />
 
 
 **RECOMMENDATION AND OBSERVATION**
 
 1. Establish a Moderate AI Usage Policy as the Academic Standard
-
 The clearest and most actionable finding from this analysis is that 6–15 hours of weekly AI usage produces the highest GPA improvement (+0.227) while High Usage (16+ hours) produces the lowest (+0.173). Institutions should establish a recommended weekly AI usage range of 6–15 hours as part of their academic AI guidelines — framing AI as a tool to be used deliberately, not habitually. This recommendation applies across all major categories since the benefit pattern is consistent regardless of discipline.
 
-3. Make Prompt Engineering Training Mandatory for All Students
-
+2. Make Prompt Engineering Training Mandatory for All Students
 Advanced prompt engineering skill is the single most reliable predictor of higher Post-Semester GPA in this dataset — producing a 0.055 GPA advantage over Beginner and Intermediate users. Given that 18,495 students (37.0%) are still at Beginner level, the largest growth opportunity in the student population lies in moving Beginners toward Advanced skill. A structured, curriculum-embedded prompt engineering training program — delivered at induction and refreshed annually — would directly address this gap.
 
-4. Promote Debugging and Problem-Solving as the Primary AI Use Case
-
+3. Promote Debugging and Problem-Solving as the Primary AI Use Case
 Debugging/Troubleshooting produces a Skill Retention Score of 78.07 — 4.35 points above the worst-performing use case (Direct_Answer_Generation at 73.72). Institutions and educators should actively discourage Direct Answer Generation as a primary AI application and promote problem-solving, ideation, and debugging use cases through assessment design, AI usage guidelines, and student awareness campaigns. This shift in how students use AI — rather than how much — will produce the greatest improvement in genuine learning outcomes.
 
-5. Implement High Dependency Intervention Programs
-
+4. Implement High Dependency Intervention Programs
 73.3% of students with High AI Dependency (score 7–10) fall in the High Burnout Risk category — the strongest and most concerning relationship in the entire dataset. A dedicated student support program targeting high-dependency students should be designed and implemented, combining AI usage monitoring, traditional study hour targets, academic counseling, and study skills coaching. Early identification of high-dependency students through self-assessment tools at the start of each semester would enable proactive rather than reactive intervention.
    
-6. Reform Strict Ban Policies Using Evidence
-
+5. Reform Strict Ban Policies Using Evidence
 The dataset reveals that students under Strict Ban policies are still engaging with AI — yet within a more constrained and potentially less structured way that may suppress academic benefit. Institutions maintaining Strict Ban policies should review this position in light of the evidence and consider transitioning to an Allowed_With_Citation framework — which provides accountability and academic integrity safeguards without eliminating the documented academic benefits of moderate, purposeful AI usage.
 
-7. Redirect Freshman AI Engagement Before Poor Habits Solidify
-
+6. Redirect Freshman AI Engagement Before Poor Habits Solidify
 Freshmen arrive at university with AI usage habits already established — many falling in the High Usage (16+ hours) bracket from the very first semester. This early adoption intensity, without the academic maturity to use AI purposefully, creates an immediate burnout and over-dependency risk. A targeted AI orientation program for all incoming students — focused on redirecting existing usage toward the optimal 6–15 hour moderate zone and toward problem-solving use cases — should be prioritized as a first-semester academic support intervention.
 
-8. Support Graduate Students with Purpose-Built AI Research Tools
-
+7. Support Graduate Students with Purpose-Built AI Research Tools
 Graduate students show the lowest AI tool diversity (14.86%) and the most conservative usage patterns of any year group. While academic rigor appropriately limits AI dependency at postgraduate level, graduate students may be missing legitimate research productivity benefits from purposeful AI integration. A curated set of AI tools specifically vetted for postgraduate research tasks — literature synthesis, citation management, data analysis support, and academic writing refinement — delivered through supervised research seminars, would support appropriate AI adoption without compromising research integrity.
 
 **CONCLUSION**
@@ -285,9 +278,13 @@ A secondary learning is the remarkable consistency of AI's academic benefit acro
 **Limitations**
 
 ●	Self-reported AI usage data is subject to social desirability bias — students under Strict Ban policies may under-report actual usage
+
 ●	Single-semester scope prevents assessment of whether AI benefits compound or diminish over multiple semesters of exposure
+
 ●	Absence of demographic variables (age, gender, socioeconomic status) limits ability to control for confounding factors in the GPA change analysis
+
 ●	No institution-level identifiers prevents granular policy effectiveness comparison between specific universities
+
 ●	Skill_Retention_Score methodology is not defined in the dataset — it is unclear whether this is a standardized test score, instructor assessment, or self-reported measure
 
 **References**
@@ -300,7 +297,8 @@ A secondary learning is the remarkable consistency of AI's academic benefit acro
 
 **Appendix A — Dataset Column Reference**
 
-<img width="383" height="221" alt="Screenshot 2026-09-29 215039" src="https://github.com/user-attachments/assets/d901a60c-bca6-483b-a536-f06f61781596" />
+<img width="383" height="210" alt="Screenshot 2026-09-29 220048" src="https://github.com/user-attachments/assets/87eb636d-fccc-4449-9492-bab4161035f3" />
+
 
 
 **Appendix B — Summary Statistics**
@@ -311,5 +309,3 @@ A secondary learning is the remarkable consistency of AI's academic benefit acro
 **Appendix C — Major Category Distribution**
 
 <img width="383" height="72" alt="Screenshot 2026-09-29 215121" src="https://github.com/user-attachments/assets/a378031b-04f8-40dc-9c66-08adc376dd55" />
-
-Arts	5,933	11.9%	+0.197
