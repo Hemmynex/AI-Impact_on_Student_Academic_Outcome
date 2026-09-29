@@ -1,5 +1,6 @@
 # AI-Impact_on_Student_Academic_Outcome
 This project shows how students are influenced and affected by AI usage.
+
 <img width="845" height="422" alt="AI STudent impact Dashboard" src="https://github.com/user-attachments/assets/cf25fc6d-2366-491b-860f-7377953de5fa" />
 
 **Prepared by:**
